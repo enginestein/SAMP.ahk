@@ -1,18 +1,18 @@
 # SAMP.ahk
-SAMP.ahk is an library specifically made to be used inside of [AutoHotKey](https://www.ahkscript.org). A part of the library comes from [SAMPUDF](https://github.com/paul-phoenix/SAMP-UDF-for-AutoHotKey) made by paul-phoenix, linked above. The end goal for SAMPAHK is to be able to provide a more complete platform for SA-MP memory modding in AutoHotKey. If you have any issues with the program, please leave an issue ticket.
 
+SAMP.ahk is a library specifically designed to be used with [AutoHotKey](https://www.ahkscript.org). It incorporates a portion of the [SAMPUDF](https://github.com/paul-phoenix/SAMP-UDF-for-AutoHotKey) library created by paul-phoenix, which is linked above. The ultimate goal of SAMP.ahk is to provide a more comprehensive platform for SA-MP memory modding in AutoHotKey. If you encounter any issues with the program, please open an issue ticket.
 
-### SUPPORTED SAMP VERSIONS
-_Currently. only [SA-MP Version 0.3.7 R1.](https://dracoblue.net/downloads/samp-client/) and Version 1 of the GTA SA Executable._
+## Supported SA-MP Versions
+Currently, only [SA-MP Version 0.3.7 R1](https://dracoblue.net/downloads/samp-client/) and Version 1 of the GTA SA Executable are supported.
 
-### IN ORDER FOR THIS TO WORK, YOU MUST MUST MUST BE USING [AutoHotKey](https://autohotkey.com) (32 BIT)
-Do not make issues or talk about errors in 64 bit. The library will not work in 64 bit.
+## Prerequisites
+In order for SAMP.ahk to work properly, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
 
+## Usage (When Writing)
+1. Make sure the mod you are writing is in the "SAM_MODS" folder alongside SAMP.ahk.
 
-### USAGE (WHEN WRITING)
-#### (MAKE SURE THE MOD YOU ARE WRITING IS IN THE SAM_MODS WITH SAMP.AHK)
+2. Include the following code snippet at the beginning of your script to reference the SAMP.ahk API:
 
-#### Referencing the API in your script:
 ```autohotkey
 SendMode Input
 SetWorkingDir %A_ScriptDir%
@@ -22,7 +22,9 @@ SetWorkingDir %A_ScriptDir%
 #SingleInstance force
 #include %A_ScriptDir%\SAMP.ahk
 ```
-#### Example of script usage:
+
+3. Here is an example of script usage:
+
 ```autohotkey
 SendMode Input
 SetWorkingDir %A_ScriptDir%
@@ -32,3 +34,5 @@ SetWorkingDir %A_ScriptDir%
 #SingleInstance force
 #include %A_ScriptDir%\SAMP.ahk
 ```
+
+Feel free to modify and enhance this readme as needed.
