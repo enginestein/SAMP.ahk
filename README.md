@@ -1,12 +1,5 @@
-## SAMPAHK (1.1.0)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ed86eaf384e4056a2b7fc1251f37ba4)](https://www.codacy.com/gh/kessec/SAMPAHK/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kessec/SAMPAHK&amp;utm_campaign=Badge_Grade)
-
-### [CODE DOCUMENTATION](https://github.com/sampudf/SAMPAHK/wiki) - INCOMPLETE
-
-
-### Synopsis
-SAMPAHK is an library specifically made to be used inside of [AutoHotKey](https://www.ahkscript.org). A part of the library comes from [SAMPUDF](https://github.com/paul-phoenix/SAMP-UDF-for-AutoHotKey) made by paul-phoenix, linked above. The end goal for SAMPAHK is to be able to provide a more complete platform for SA-MP memory modding in AutoHotKey. If you have any issues with the program, please leave an issue ticket.
+# SAMP.ahk
+SAMP.ahk is an library specifically made to be used inside of [AutoHotKey](https://www.ahkscript.org). A part of the library comes from [SAMPUDF](https://github.com/paul-phoenix/SAMP-UDF-for-AutoHotKey) made by paul-phoenix, linked above. The end goal for SAMPAHK is to be able to provide a more complete platform for SA-MP memory modding in AutoHotKey. If you have any issues with the program, please leave an issue ticket.
 
 
 ### SUPPORTED SAMP VERSIONS
