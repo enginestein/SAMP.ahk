@@ -1,5 +1,4 @@
-; UPDATE THIS OR YOUR MERGE WILL BE CLOSED.
-Version := "SAM CORE VERSION: 1.1.0"
+Version := "1.0.0"
 
 #NoEnv
 SendMode Input
