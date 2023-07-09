@@ -1,17 +1,17 @@
-# SAMP.ahk
+# SAMP.dev
 
-SAMP.ahk is a library specifically designed to be used with [AutoHotKey](https://www.ahkscript.org). The ultimate goal of SAMP.ahk is to provide a more comprehensive platform for SA-MP memory modding in AutoHotKey. If you encounter any issues with the program, please open an issue ticket.
+SAMP.dev is a library specifically designed to be used with [AutoHotKey](https://www.ahkscript.org). The ultimate goal of SAMP.dev is to provide a more comprehensive platform for SA-MP memory modding in AutoHotKey. If you encounter any issues with the program, please open an issue ticket.
 
 ### Supported SA-MP Versions
 Currently, only [SA-MP Version 0.3.7 R1](https://dracoblue.net/downloads/samp-client/) and Version 1 of the GTA SA Executable are supported.
 
 ### Prerequisites
-In order for SAMP.ahk to work properly, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
+In order for SAMP.dev to work properly, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
 
 ### Usage
-1. Make sure the mod you are writing is in the "SAM_MODS" folder alongside SAMP.ahk.
+1. Make sure the mod you are writing is in the "SAM_MODS" folder alongside SAMP.dev.
 
-2. Include the following code snippet at the beginning of your script to reference the SAMP.ahk API:
+2. Include the following code snippet at the beginning of your script to reference the SAMP.dev API:
 
 ```autohotkey
 SendMode Input
@@ -20,10 +20,10 @@ SetWorkingDir %A_ScriptDir%
 #UseHook
 #NoEnv
 #SingleInstance force
-#include %A_ScriptDir%\SAMP.ahk
+#include %A_ScriptDir%\SAMP.dev
 ```
 
-3. Start using SAMP.ahk
+3. Start using SAMP.dev
 
 ```autohotkey
 Hotkey, Enter, Off
