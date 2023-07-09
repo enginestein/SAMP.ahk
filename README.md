@@ -79,7 +79,7 @@ showGameText(getPlayerNameById(varID) "~n~Score: " getPlayerScoreById(varID) "~n
 return
 
 Numpad3::
-playAudioStream("http://breakz.us/radio/listen.pls")
+playAudioStream("an/audio/stream/file/path/or/url/link")
 return
 
 Numpad4::
