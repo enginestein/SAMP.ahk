@@ -22,17 +22,3 @@ SetWorkingDir %A_ScriptDir%
 #SingleInstance force
 #include %A_ScriptDir%\SAMP.ahk
 ```
-
-3. Here is an example of script usage:
-
-```autohotkey
-SendMode Input
-SetWorkingDir %A_ScriptDir%
-#Warn
-#UseHook
-#NoEnv
-#SingleInstance force
-#include %A_ScriptDir%\SAMP.ahk
-```
-
-Feel free to modify and enhance this readme as needed.
