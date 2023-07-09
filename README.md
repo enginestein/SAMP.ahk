@@ -8,7 +8,7 @@ Currently, only [SA-MP Version 0.3.7 R1](https://dracoblue.net/downloads/samp-cl
 ### Prerequisites
 In order for SAMP.ahk to work properly, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
 
-### Usage (When Writing)
+### Usage
 1. Make sure the mod you are writing is in the "SAM_MODS" folder alongside SAMP.ahk.
 
 2. Include the following code snippet at the beginning of your script to reference the SAMP.ahk API:
