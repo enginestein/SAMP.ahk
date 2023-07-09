@@ -75,16 +75,13 @@ Hotkey, Enter, On
 Hotkey, Escape, On
 Input varID, V I M,{enter}
 SendInput {end}+{home}{Del}{esc}
-;updateScoreboardData()    
 showGameText(getPlayerNameById(varID) "~n~Score: " getPlayerScoreById(varID) "~n~Ping: " getPlayerPingById(varID) "~n~IsNPC: " isNPCById(varID), 2000, 5)
 return
 
-;play an "audio stream"
 Numpad3::
 playAudioStream("http://breakz.us/radio/listen.pls")
 return
 
-;stopp an "audio stream"
 Numpad4::
 stopAudioStream()
 return
