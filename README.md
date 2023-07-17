@@ -6,7 +6,7 @@ SAMP.ahk is a library specifically designed to be used with [AutoHotKey](https:/
 Currently, only [SA-MP Version 0.3.7 R1](https://dracoblue.net/downloads/samp-client/) and Version 1 of the GTA SA Executable are supported.
 
 ### Prerequisites
-In order for SAMP.ahk to work properly for AutoHotKey, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
+In order for SAMP.ahk to work properly for AutoHotKey, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. You can compile SAMP.ahk using an older version of AutoHotKey or use the [compiled](https://github.com/enginestein/SAMP.ahk) executable for windows
 
 ### Usage
 1. Make sure the mod you are writing is in the "SAM_MODS" folder alongside SAMP.ahk.
