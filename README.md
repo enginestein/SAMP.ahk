@@ -1,6 +1,26 @@
-# SAMP.dev-Wrappers
+# SAMP.ahk
 
-These are the wrappers from [SAMP.dev](https://github.com/enginestein/SAMP.dev). 
+SAMP.ahk is single AutoHotKey files which contains rewritten code of all SAMP scripting functions. 
+
+# Usage
+
+Before coding with SAMP.ahk, this code block must be included on top of your file.
+
+```autohotkey
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+#Warn
+#UseHook
+#NoEnv
+#SingleInstance force
+#include %A_ScriptDir%\SAMP.ahk
+```
+
+Then the SAMP functions can be used.
+
+You can also use the AutoHotKey compiled executable given in [releases](https://github.com/enginestein/SAMP.ahk/releases)
+
+SAMP.ahk will only work with SA-MP version 0.3.7 R1 and version 1 of GTA San Andreas.
 
 # Docs
 
