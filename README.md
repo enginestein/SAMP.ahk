@@ -4,7 +4,7 @@ SAMP.ahk is a library specifically designed to be used with [AutoHotKey](https:/
 
 ### Supported SA-MP Versions
 Currently, only [SA-MP Version 0.3.7 R1](https://dracoblue.net/downloads/samp-client/) and Version 1 of the GTA SA Executable are supported.
-
+ 
 ### Prerequisites
 In order for SAMP.ahk to work properly, you must be using [AutoHotKey](https://autohotkey.com) (32-bit). Please note that the library will not function in a 64-bit environment. 
 
